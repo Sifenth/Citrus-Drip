@@ -1,0 +1,37 @@
+.Arrivals{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
+.arrivalh1{
+    text-align: center;
+    margin-top: 70px ;
+}
+.arrivalhr {
+    width: 200px ;
+    height: 6px;
+    border: none;
+    border-radius: 10px;
+    background: #14213D;
+    margin: 40px auto;
+    margin-bottom: 70px;
+    
+}
+
+.newIcon{
+    width: 60px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 260px;
+    border-radius: 11px;
+    transform :rotate(30deg) ;
+    font-size: 14px;
+    background-color: #FF5CA2 ;
+    color: white;
+
+}

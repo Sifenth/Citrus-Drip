@@ -1,0 +1,40 @@
+#logoimage{
+    width: 110px;
+    margin-top: 20px;
+}
+
+/*Cart styling section */
+
+#cartimage{
+    width: 30px;
+    
+}
+.nav-card-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -17px;
+    margin-left: 19px;
+    border-radius: 11px;
+    font-size: 14px;
+    background-color: #FF5CA2 ;
+    color: white;
+  
+    
+
+}
+
+/*Searchbox styling section */
+.searchbox{
+    border-radius: 60px !important;
+    border: black solid 1px;
+}
+/* the classnavlink is to change the color of the links of the navbar 
+without modifying all the anla tags links tag */
+
+.navlink{
+    color: white !important;
+    
+}

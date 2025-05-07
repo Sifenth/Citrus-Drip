@@ -1,0 +1,25 @@
+.Underproducts{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+    
+
+    
+}
+.Ourproducts h1{
+    text-align: center;
+    margin-top: 180px ;
+}
+.Ourproducts hr {
+    width: 200px ;
+    height: 6px;
+    border: none;
+    border-radius: 10px;
+    background: #14213D;
+    margin: 40px auto;
+    margin-bottom: 70px;
+    
+}
+

@@ -1,0 +1,137 @@
+.reviews-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.reviews-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.reviews-summary {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.average-rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rating-number {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.star-rating {
+    display: flex;
+    gap: 5px;
+}
+
+.star-rating img {
+    width: 20px;
+    height: 20px;
+}
+
+.total-reviews {
+    color: #666;
+    margin-left: 10px;
+}
+
+.interactive-star {
+    cursor: pointer;
+}
+
+.write-review-btn {
+    background-color: #1e1e1e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.write-review-btn:hover {
+    background-color: #333;
+}
+
+.review-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.submit-review-btn {
+    background-color: #1e1e1e;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.submit-review-btn:hover {
+    background-color: #333;
+}
+
+.reviews-list {
+    margin-top: 30px;
+}
+
+.review-item {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.review-author {
+    font-weight: 600;
+}
+
+.review-date {
+    color: #777;
+    font-size: 0.9em;
+}
+
+.review-rating {
+    margin-bottom: 10px;
+}
+
+.review-comment p {
+    margin: 0;
+    line-height: 1.6;
+}

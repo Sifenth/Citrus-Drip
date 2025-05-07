@@ -1,0 +1,35 @@
+.welcome{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    grid-auto-flow: column;
+    
+}
+/*the lef image with the caption*/
+.welcome-left{
+    height: 96em;
+    background: linear-gradient(180deg,#fde1ff,#E0F4FF 60%);
+    text-align: left;
+    border-radius: 30px;
+    overflow: hidden;
+    
+}
+.caption{
+   
+    font-size: 6em;
+    padding-top: 1000px;
+    padding-left: 30px;
+    margin-bottom:0 ;
+    font-family: "Cascadia Code", sans-serif;
+    font-optical-sizing: auto;
+}
+.subcaption{
+    font-size: 2em;
+    padding-left: 30px;
+    
+}
+
+/* the right image */
+.welcome-right img{
+    border-radius: 30px;
+    
+}

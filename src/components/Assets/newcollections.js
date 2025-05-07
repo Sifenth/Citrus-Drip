@@ -1,0 +1,58 @@
+const Newcollections = [{
+    id : "p11" ,
+    name : "Made in UK 991v2",
+    image : "https://image-cdn.hypb.st/https%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2Fff%2F05%2FShoes-3-1-6837b.jpg?fit=max&w=720&q=90",
+    image1 : "https://image-cdn.hypb.st/https%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2F8f%2F57%2FShoes-3-4-0519f.jpg?fit=max&w=720&q=90",
+    price : "2100₫",
+    // views: 0,
+    // sold: 9,
+    // reviews : [],
+},{
+    id : "p12",
+    name : "XT-6",
+    image :"https://image-cdn.hypb.st/https%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2Ff7%2Fba%2FShoes-6-1-61a86.jpg?fit=max&w=720&q=90",
+    image1 : "https://image-cdn.hypb.st/https%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2F14%2F85%2FShoes-6-4-cae7a.jpg?fit=max&w=720&q=90",
+    price : "10000₫",
+//     views: 5,
+//     sold: 13,
+//     reviews :[] ,
+// },{
+    id : "p13",
+    name : "Logo T-shirt - Relaxed Fit",
+    image : "https://image-cdn.hypb.st/https%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2F71%2F9b%2Ftshirt-1-1-2d31a.jpg?fit=max&w=720&q=90",
+    image1 : "https://image-cdn.hypb.st/https%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2Fda%2Fe6%2Ftshirt-1-3h-bc4b0.jpg?fit=max&w=720&q=90",
+    price : "1200₫",
+    // views: 10,
+    // sold: 8,
+    // reviews : [],
+},{
+    id : "p14",
+    name : "Organ System T-shirt",
+    image : "https://image-cdn.hypb.st/https%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2F57%2Ff2%2Ftshirt-3-1-289d7.jpg?fit=max&w=720&q=90",
+    image1 : "https://image-cdn.hypb.st/https%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2F7d%2F4f%2Ftshirt-3-3h-2203c.jpg?fit=max&w=720&q=90",
+    price : "6000₫",
+    // views: 5,
+    // sold: 9,
+    // reviews : [],
+},{
+    id : "p15",
+    name : "Smiley Galaxy T-shirt",
+    image : "https://image-cdn.hypb.st/https%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2F1f%2F75%2Ftshirt-7-1-9c623.jpg?fit=max&w=720&q=90",
+    image1 :"https://image-cdn.hypb.st/https%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2Fc9%2Fc2%2Ftshirt-7-3h-bb9a4.jpg?fit=max&w=720&q=90",
+    price : "1000₫",
+    // views: 18,
+    // sold: 10,
+    // reviews : [],
+},{
+    id : "p16",
+    name : "Smiley Seeds Of Friendship T-shirt",
+    image : "https://image-cdn.hypb.st/https%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2Fee%2Ffd%2Ftshirt-6-1-af48d.jpg?fit=max&w=720&q=90",
+    image1 :"https://image-cdn.hypb.st/https%3A%2F%2Fs3.store.hypebeast.com%2Fmedia%2Fimage%2Ff3%2Fa4%2Ftshirt-6-3h-b6de2.jpg?fit=max&w=720&q=90",
+    price : "1000₫",
+    // views: 20,
+    // sold: 12,
+    // reviews : [],
+}
+];
+
+export default Newcollections;

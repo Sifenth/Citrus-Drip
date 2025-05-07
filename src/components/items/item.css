@@ -1,0 +1,31 @@
+
+.itemimg{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+}
+.card{
+   
+    text-align: center;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+}
+.btn{
+    background-color: #3DA9FC;
+    border-radius: 20px;
+    font-family: "Edu QLD Beginner", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    color:#F5F5F5 ;
+
+}
+.btn:hover{
+    background-color: #FF5CA2;
+    box-shadow: 1px 1px 1px #D9D9D9;
+}
+.card:hover{
+    transform: scale(1.05) ;
+    transition: 0.6s ;
+}
+
