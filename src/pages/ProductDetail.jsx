@@ -1,13 +1,12 @@
-// In ProductDetail.jsx
 import React, { useContext, useEffect, useState } from 'react'
 import { ShopContext } from '../context/ShopContext';
 import { useParams } from 'react-router-dom';
 import Breadcrum from '../components/Breadcrum/Breadcrum';
 import ProductDisplay from '../components/ProductDisplay/ProductDisplay';
-import Reviews from '../components/Reviews/Reviews';
+import Reviews from '../components/Reviews/Reviews'; // Import Reviews component
 
 const ProductDetail = () => {
-    const { AllProducts, updateProductViews } = useContext(ShopContext);
+    const { AllProducts } = useContext(ShopContext);
     const { ProductDetailId } = useParams(); 
     const [productReviews, setProductReviews] = useState([]);
     
@@ -16,16 +15,12 @@ const ProductDetail = () => {
     
     // Function to handle adding a new review
     const handleAddReview = (newReview) => {
+        // In a real app, you would likely send this to an API
         // For now, we'll just update the local state
         setProductReviews([...productReviews, newReview]);
+        
+        // You might want to update the context or storage here as well
     };
-    
-    // Update views when component mounts
-    useEffect(() => {
-        if (ProductDetailId) {
-            updateProductViews(ProductDetailId);
-        }
-    }, [ProductDetailId, updateProductViews]);
     
     // Set product reviews when product changes
     useEffect(() => {
@@ -48,8 +43,8 @@ const ProductDetail = () => {
                 image1={product.image1}  
                 name={product.name} 
                 price={product.price}
-                views={product.views} // Pass views to ProductDisplay
             />
+            {/* Add Reviews component here */}
             <Reviews 
                 productId={product.id}
                 reviews={productReviews}

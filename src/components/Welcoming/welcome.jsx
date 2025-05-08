@@ -4,7 +4,7 @@ import welcomeIMG from '../Assets/images/welcoming.png'
 import captionimg from '../Assets/images/captionimage.png'
 const Welcome = () => {
   return (
-  <div className='welcome'>
+  <div className='welcome containerFF'>
     <div className='welcome-right'>
       <img src={welcomeIMG} alt="" />
     </div>
