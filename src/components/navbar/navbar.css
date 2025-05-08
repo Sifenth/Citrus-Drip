@@ -31,10 +31,13 @@
     border-radius: 60px !important;
     border: black solid 1px;
 }
-/* the classnavlink is to change the color of the links of the navbar 
+/* the class navlink is to change the color of the links of the navbar 
 without modifying all the anla tags links tag */
 
 .navlink{
     color: white !important;
     
+}
+.navbar{
+    padding-right: 80px;
 }
