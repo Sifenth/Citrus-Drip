@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav class="navbar navbar-expand" style={{backgroundColor :"#0B0C10"}}>
   <div class="container-fluid">
-    <a style={{fontSize : "2.4em"}} class="navbar-brand navlink " href="http://localhost:3000/Home"><img src={logo} alt="logo" id='logoimage'/>Citrus Drop</a>
+    <a style={{fontSize : "2.4em"}} class="navbar-brand navlink " href="http://localhost:3000/Home"><img src={logo} alt="logo" id='logoimage'/>Citrus Drip</a>
     {/* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> */}
       {/* <span class="navbar-toggler-icon"></span> */}
     {/* </button> */}
